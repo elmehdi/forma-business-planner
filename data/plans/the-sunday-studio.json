@@ -1,0 +1,89 @@
+{
+  "id": "the-sunday-studio",
+  "title": "The Sunday Studio",
+  "owner": "Mehdi",
+  "description": "Thoughtful spaces. Everyday rituals.",
+  "currency": "USD",
+  "industry": "Lifestyle & retail",
+  "status": "In progress",
+  "createdAt": "2026-10-19T21:31:48.487Z",
+  "updatedAt": "2026-10-19T21:31:48.487Z",
+  "sections": {
+    "summary": "The Sunday Studio is a thoughtfully curated home and lifestyle brand for people who believe that everyday spaces can feel extraordinary. We bring together small-batch homewares, considered design, and a slower approach to living.\n\nOur first chapter is an online collection of essentials, supported by intimate pop-up experiences. We aim to become the go-to destination for accessible, independent design.",
+    "problem": "Design-conscious customers often choose between mass-market products with little character and independent pieces priced out of reach. We bridge the gap with a carefully edited collection, transparent sourcing, and approachable pricing.",
+    "market": "Our primary audience is urban professionals aged 25–40 who value design, sustainability, and a personal connection to the things they buy. We will begin with a focused local audience and validate demand through a small launch collection.",
+    "business": "Direct-to-consumer sales through our online store, complemented by seasonal pop-ups. Our target variable cost is 25% of revenue. A focused product range and small initial production runs help us learn before scaling.",
+    "marketing": "Start with a founder-led community on Instagram and Pinterest, a weekly editorial newsletter, and collaborations with local interior designers. Launch with a limited collection and collect customer feedback before expanding.",
+    "operations": "",
+    "milestones": ""
+  },
+  "assumptions": {
+    "monthlyRevenue": 12000,
+    "fixedCosts": 9000,
+    "variableCosts": 25,
+    "startingCash": 50000
+  },
+  "scenarios": {
+    "pessimistic": {
+      "growth": 2,
+      "volume": 0.7
+    },
+    "realistic": {
+      "growth": 6,
+      "volume": 1
+    },
+    "optimistic": {
+      "growth": 10,
+      "volume": 1.35
+    }
+  },
+  "versions": [
+    {
+      "id": "0fe21f36-d22c-49e8-ab3d-9f4b405e0483",
+      "number": 1,
+      "name": "The first chapter",
+      "author": "Mehdi",
+      "createdAt": "2026-10-19T21:31:48.491Z",
+      "data": {
+        "id": "the-sunday-studio",
+        "title": "The Sunday Studio",
+        "owner": "Mehdi",
+        "description": "Thoughtful spaces. Everyday rituals.",
+        "currency": "USD",
+        "industry": "Lifestyle & retail",
+        "status": "In progress",
+        "createdAt": "2026-10-19T21:31:48.487Z",
+        "updatedAt": "2026-10-19T21:31:48.487Z",
+        "sections": {
+          "summary": "The Sunday Studio is a thoughtfully curated home and lifestyle brand for people who believe that everyday spaces can feel extraordinary. We bring together small-batch homewares, considered design, and a slower approach to living.\n\nOur first chapter is an online collection of essentials, supported by intimate pop-up experiences. We aim to become the go-to destination for accessible, independent design.",
+          "problem": "Design-conscious customers often choose between mass-market products with little character and independent pieces priced out of reach. We bridge the gap with a carefully edited collection, transparent sourcing, and approachable pricing.",
+          "market": "Our primary audience is urban professionals aged 25–40 who value design, sustainability, and a personal connection to the things they buy. We will begin with a focused local audience and validate demand through a small launch collection.",
+          "business": "Direct-to-consumer sales through our online store, complemented by seasonal pop-ups. Our target variable cost is 25% of revenue. A focused product range and small initial production runs help us learn before scaling.",
+          "marketing": "Start with a founder-led community on Instagram and Pinterest, a weekly editorial newsletter, and collaborations with local interior designers. Launch with a limited collection and collect customer feedback before expanding.",
+          "operations": "",
+          "milestones": ""
+        },
+        "assumptions": {
+          "monthlyRevenue": 12000,
+          "fixedCosts": 9000,
+          "variableCosts": 25,
+          "startingCash": 50000
+        },
+        "scenarios": {
+          "pessimistic": {
+            "growth": 2,
+            "volume": 0.7
+          },
+          "realistic": {
+            "growth": 6,
+            "volume": 1
+          },
+          "optimistic": {
+            "growth": 10,
+            "volume": 1.35
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "gather-and-ground",
+  "title": "Gather & Ground",
+  "owner": "Partner",
+  "description": "A neighborhood coffee concept with community at its heart.",
+  "currency": "USD",
+  "industry": "Food & beverage",
+  "status": "Draft",
+  "createdAt": "2026-10-19T21:31:48.491Z",
+  "updatedAt": "2026-10-19T21:31:48.491Z",
+  "sections": {
+    "summary": "A welcoming neighborhood café that pairs specialty coffee with space to connect. Our plan starts with one location, a simple menu, and a loyal local community.",
+    "problem": "",
+    "market": "",
+    "business": "",
+    "marketing": "",
+    "operations": "",
+    "milestones": ""
+  },
+  "assumptions": {
+    "monthlyRevenue": 18000,
+    "fixedCosts": 14000,
+    "variableCosts": 25,
+    "startingCash": 50000
+  },
+  "scenarios": {
+    "pessimistic": {
+      "growth": 2,
+      "volume": 0.7
+    },
+    "realistic": {
+      "growth": 6,
+      "volume": 1
+    },
+    "optimistic": {
+      "growth": 10,
+      "volume": 1.35
+    }
+  },
+  "versions": []
+}
