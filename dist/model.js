@@ -43,7 +43,7 @@ export function metrics(plan, id = 'realistic') {
   return { revenue, profit, margin: revenue ? profit / revenue * 100 : 0, endingCash: rows.at(-1).cash, breakEven: rows.findIndex(r => r.profit >= 0), runway: rows.findIndex(r => r.cash < 0) };
 }
 export function progress(plan) { return Math.round(SECTIONS.filter(([id]) => (plan.sections[id] || '').trim()).length / SECTIONS.length * 100); }
-export function newPlan({ title, owner, description = '', currency = 'USD', industry = 'Other' }) {
+export function newPlan({ title, owner, description = '', currency = 'MAD', industry = 'Other' }) {
   const now = new Date().toISOString();
   return { id: crypto.randomUUID(), title, owner, description, currency, industry, status: 'Draft', createdAt: now, updatedAt: now, sections: Object.fromEntries(SECTIONS.map(([id]) => [id, ''])), canvas: emptyCanvas(), assumptions: { monthlyRevenue: 12000, fixedCosts: 9000, variableCosts: 25, startingCash: 50000 }, scenarios: Object.fromEntries(SCENARIOS.map(s => [s.id, { growth: s.growth, volume: s.volume }])), versions: [] };
 }

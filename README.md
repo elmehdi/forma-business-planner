@@ -19,7 +19,7 @@ Open http://localhost:3000. Example plans are created on first launch. Use Works
 - Twelve-month revenue, operating profit, cash balances, and operating break-even.
 - Named version snapshots, snapshot inspection, and restore with an automatic safety snapshot.
 - JSON plan export/import and workspace backups; forecast CSV export.
-- USD, MAD, EUR, and GBP; searchable plans and an ownership filter.
+- MAD working currency; French/English interfaces, searchable plans, and an ownership filter.
 
 ## Two people, one private GitHub repository
 
@@ -66,3 +66,9 @@ Open any plan to use its Business Model Canvas, or choose **Business canvas** in
 Canvas notes autosave and are included in JSON exports, saved versions, and restores. Plans created before canvas support open with empty canvas blocks, retaining all written sections and previous versions.
 
 Business Model Canvas layout adapted from [Strategyzer](https://www.strategyzer.com/library/the-business-model-canvas), by Alexander Osterwalder and Yves Pigneur. The canvas layout adaptation is available under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).
+
+## Langue et devise
+
+L’interface est en français par défaut. Les boutons **FR / EN** en haut de l’écran permettent de changer de langue ; votre choix est conservé dans le navigateur. Les titres, les notes et les textes que vous rédigez restent tels quels. Les libellés, formulaires, aides, messages et en-têtes CSV sont traduits.
+
+La devise de travail est le **MAD (dirham marocain)**. Les montants des plans existants sont désormais exprimés en MAD, sans conversion de change ni modification des hypothèses numériques. Les versions historiques conservent leur devise d’origine. Les nouveaux plans et les plans importés utilisent le MAD.
