@@ -8,6 +8,16 @@ export function setLanguage(value) {
 export const locale = () => language === 'fr' ? 'fr-MA' : 'en-GB';
 const fr = Object.fromEntries(`
 Overview|Vue d’ensemble
+Compare scenarios|Comparer les scénarios
+Scenario strategy|Stratégie du scénario
+Work together|Travailler ensemble
+This plan changed elsewhere. Reload it before saving.|Ce projet a changé ailleurs. Actualisez-le avant de l’enregistrer.
+Could not read workspace files.|Impossible de lire les fichiers de l’espace de travail.
+Folder connection needs Chrome or Edge. Use JSON export and import in this browser.|La connexion à un dossier nécessite Chrome ou Edge. Utilisez l’export et l’import JSON dans ce navigateur.
+A plan filename does not match its ID.|Le nom d’un fichier de projet ne correspond pas à son identifiant.
+Unsupported plan format.|Ce format de projet n’est pas pris en charge.
+Invalid scenario.|Ce scénario est invalide.
+Version not found.|Version introuvable.
 Business plans|Plans d’affaires
 Business canvas|Canevas d’affaires
 Scenario planning|Scénarios

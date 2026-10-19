@@ -25,5 +25,5 @@ test('English selection is reversible and unknown user text is preserved',()=>{
   setLanguage('fr');assert.equal(locale(),'fr-MA');assert.equal(t('My own business description'),'My own business description');assert.equal(t('Save version'),'Enregistrer une version');
 });
 test('new plans use MAD without changing financial assumptions',()=>{
-  const p=newPlan({title:'Mon projet',owner:'Mehdi'});assert.equal(p.currency,'MAD');assert.equal(p.assumptions.monthlyRevenue,12000);
+  const p=newPlan({title:'Mon projet',owner:'Mehdi'});assert.equal(p.currency,'MAD');assert.equal(p.scenarios.realistic.assumptions.monthlyRevenue,0);
 });
