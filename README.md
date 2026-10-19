@@ -56,3 +56,13 @@ npm test
 Tests cover forecast math, negative cash, validation, and non-destructive snapshots. No package installation or build is needed.
 
 Git’s text/binary merge behavior is documented in the [Git attributes reference](https://git-scm.com/docs/gitattributes).
+
+## Canvas view
+
+Open any plan to use its Business Model Canvas, or choose **Business canvas** in the sidebar. Switch between **Canvas view** and **Written plan** above the editor. The canvas provides nine editable blocks in the standard spatial arrangement. These blocks are concise notes alongside your written sections; editing one view does not rewrite the other.
+
+**Expand canvas** hides the sidebar and gives the board more space. On smaller screens, scroll horizontally inside the board. Text remains readable instead of shrinking to fit. Blocks grow with their content. **Print / PDF** prints the complete canvas in landscape format; select “Save as PDF” in your browser’s print dialog.
+
+Canvas notes autosave and are included in JSON exports, saved versions, and restores. Plans created before canvas support open with empty canvas blocks, retaining all written sections and previous versions.
+
+Business Model Canvas layout adapted from [Strategyzer](https://www.strategyzer.com/library/the-business-model-canvas), by Alexander Osterwalder and Yves Pigneur. The canvas layout adaptation is available under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).
